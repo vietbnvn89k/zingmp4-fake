@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./zingmp3/zingmp3.css" />
+    <title>Mp3-copy</title>
+</head>
+<body>
+    <div id="home">
+        <div id="left-bar">
+            <i id="icon-zing"></i>
+            <div id="infomation">
+                <div id="part-1">
+                    <div id="ca-nhan">
+                        <i class="fa-solid fa-play play-left-bar"></i>
+                        <h4>Cá Nhân <i class="fa-regular fa-circle-play"></i></h4>
+                    </div>
+                    <div id="kham-pha">
+                        <i class="fa-regular fa-circle"></i>
+                        <h4>khám Phá <i class="fa-regular fa-circle-play"></i></h4>
+                    </div>
+                    <div id="zing-chart">
+                        <i class="fa-solid fa-chart-line"></i>
+                        <h4>#zingchart <i class="fa-regular fa-circle-play"></i></h4>
+                    </div>
+                    <div id="radio">
+                        <i class="fa-solid fa-compact-disc"></i>
+                        <h4>Radio <i class="fa-regular fa-circle-play"></i></h4>
+                    </div>
+                    <div id="theo-doi">
+                        <i class="fa-solid fa-newspaper"></i>
+                        <h4>Theo Dõi <i class="fa-regular fa-circle-play"></i></h4>
+                    </div>
+                </div>
+                <div id="part-2">
+                    <div id="nhac-moi">
+                        <i class="fa-solid fa-music"></i>
+                        <h4>Nhạc Mới <i class="fa-regular fa-circle-play"></i></h4>
+                    </div>
+                    <div id="the-loai">
+                        <i class="fa-solid fa-icons"></i>
+                        <h4>Thể Loại <i class="fa-regular fa-circle-play"></i></h4>
+                    </div>
+                    <div id="top-100">
+                        <i class="fa-regular fa-star"></i>
+                        <h4>Top 100 <i class="fa-regular fa-circle-play"></i></h4>
+                    </div>
+                    <div id="mv">
+                        <i class="fa-solid fa-file-audio"></i>
+                        <h4>MV <i class="fa-regular fa-circle-play"></i></h4>
+                    </div>
+                    <div id="vip"></div>
+                    <div id="library">
+                        <div id="h4-library">
+                            <h4>THƯ VIỆN</h4>
+                            <i class="fa-solid fa-pencil pencil-library"></i>
+                        </div>
+                        <h5><i class="fa-solid fa-music"></i> Bài hát</i></h5>
+                        <h5><i class="fa-solid fa-list-check"></i> Playlist</i></h5>
+                        <h5><i class="fa-regular fa-clock"></i> Gần đây</i></h5>
+                    </div>
+                </div>
+                <div id="part-3">
+                    <i class="fa-solid fa-plus"></i>
+                    <h4>Tạo playlist mới</h4>
+                </div>
+            </div>
+        </div>
+        <div id="right-bar">
+            <div id="new-playlist">
+                <div id="title-new-playlist">
+                    <h3>Tạo play list</h3>
+                    <i class="fa-solid fa-xmark close-list"></i>
+                </div>
+                <input id="input-name-playlist" type="text" placeholder="Nhập tên playlist">
+                <div id="public-playlist">
+                    <h4>Công khai</h4>
+                    <h5>mọi người có thể nhìn thấy playlist này</h5>
+                </div>
+                <div id="random-music">
+                    <h4>Phát ngẫu nhiên</h4>
+                    <h5>luôn phát ngẫu nhiên tất cả bài hát</h5>
+                </div>
+                <div id="create-playlist">
+                    <h4>Tạo mới</h4>
+                </div>
+            </div>
+            <div id="part-1">
+                <div class="image" id="image-1"></div>
+                <div class="image" id="image-2"></div>
+                <div class="image" id="image-3"></div>
+            </div>
+            <div id="part-2">
+                <h3>Gần Đây</h3>
+                <div class="square">
+                    <div class="image-right-bar">
+                        <div class="image-right-bar-2" id="edm"></div>
+                        <i class="fa-solid fa-play play-square boder-radius"></i>
+                    </div>
+                    <h4>Top 100 Nhạc EDM</h4>       
+                </div>
+                <div class="square">
+                    <div class="image-right-bar">
+                        <div class="image-right-bar-2" id="edm-viet"></div>
+                        <i class="fa-solid fa-play play-square boder-radius"></i>
+                    </div>
+                    <h4>Top 100 Nhạc EDM Việt</h4>
+                </div>
+                <div class="square">
+                    <div class="image-right-bar">
+                        <div class="image-right-bar-2" id="zing-chart"></div>
+                        <i class="fa-solid fa-play play-square boder-radius"></i>
+                    </div>
+                    <h4>#zing-chart</h4>
+                </div>
+                <div class="square" >
+                    <div class="image-right-bar">
+                        <div class="image-right-bar-2" id="co-phong"></div>
+                        <i class="fa-solid fa-play play-square boder-radius"></i>
+                    </div>
+                    <h4>Nhạc Cổ Phong Trung Hoa</h4>
+                </div>
+                <div class="square" >
+                    <div class="image-right-bar">
+                        <div class="image-right-bar-2" id="nhac-tre"></div>
+                        <i class="fa-solid fa-play play-square boder-radius"></i>
+                    </div>
+                    <h4>Top 100 Nhạc Trẻ</h4>
+                </div>
+                <div class="square" >
+                    <div class="image-right-bar">
+                        <div class="image-right-bar-2" id="nhac-hoa-ngu"></div>
+                        <i class="fa-solid fa-play play-square boder-radius"></i>
+                    </div>
+                    <h4>Top 100 Nhạc Hoa Ngữ hay nhất</h4>
+                </div>
+                <div class="square" >
+                    <div class="image-right-bar">
+                        <div class="image-right-bar-2" id="bolero"></div>
+                        <i class="fa-solid fa-play play-square boder-radius"></i>
+                    </div>
+                    <h4>Website Made By Viet Anh</h4>
+                </div>
+            </div>
+            <div id="part-3"></div>
+        </div>
+
+        <!-- -------------------------------------- -->
+        <div id="top-bar">
+            <i class="fa-solid fa-arrow-left"></i>
+            <i class="fa-solid fa-arrow-right"></i> 
+            <i class="fa-solid fa-magnifying-glass"></i>    
+            <input type="text" placeholder="Tìm kiếm bài hát, nghệ sĩ, lời bài hát....">
+            <label id="checkbox">
+                <input id="accept" type="checkbox">
+                <span class="check"></span>
+            </label>
+            <i class="fa-solid fa-gear"></i>
+            <i id="avatar-top-bar"></i>
+        </div>
+        <!-- -------------------------------------- -->
+        <div id="bottom-bar">
+            <div id="part-1">
+                <video id="icon-music">
+                    <source src="./zingmp3/video/y2meta.com - V i n a f o u n t a i n. - North Vietnam ♪(720p).mp4">
+                </video>
+                <i class="fa-regular fa-heart circle"></i>
+                <i class="fa-solid fa-ellipsis more-bottom circle"></i>
+                <div id="more-bottom-bar">
+                    <div id="more-dowload">
+                        <div id="dowload">
+                            <i class="fa-solid fa-download"></i>
+                            <h6>Tải xuống</h6>
+                        </div>
+                        <div id="melody">
+                            <i class="fa-solid fa-bars"></i>
+                            <h6>Lời bài hát</h6>
+                        </div>
+                        <div id="block">
+                            <i class="fa-regular fa-rectangle-xmark"></i>
+                            <h6>Chặn</h6>
+                        </div>
+                    </div>
+                    <div id="more-playlist">
+                        <div id="one">
+                            <i class="fa-solid fa-plus icon1-playlist"></i>
+                            <h5>Thêm vào playlist</h5>
+                            <i class="fa-solid fa-chevron-right icon2-playlist"></i>
+                        </div>
+                        <div id="two">
+                            <i class="fa-regular fa-comment icon1-playlist"></i>
+                            <h5>Phát Radio của bài hát</h5>
+                        </div>
+                        <div id="three">
+                            <i class="fa-solid fa-link icon1-playlist"></i>
+                            <h5>Sao chép liên kết</h5>
+                        </div>
+                        <div id="four">
+                            <i class="fa-regular fa-share-from-square icon1-playlist"></i>
+                            <h5>Chia sẻ</h5>
+                            <i class="fa-solid fa-chevron-right icon2-playlist"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="part-2">
+                <div id="remote-control-1">
+                    <i class="fa-solid fa-backward-step circle"></i>
+                    <i class="fa-solid fa-play play-bottom-bar boder-radius"></i>
+                    <i class="fa-solid fa-pause pause-bottom-bar boder-radius"></i>
+                    <i class="fa-solid fa-forward-step circle"></i>
+                </div>
+                <div id="remote-control-2">
+                    <h5>00:00</h5>
+                    <div id="bar"><div id="in-bar"></div></div>
+                    <h5>03:24</h5>
+                </div>
+            </div>
+            <div id="part-3">
+                <i class="fa-solid fa-microphone"></i>
+                <i class="fa-solid fa-display"></i>
+                <i class="fa-solid fa-volume-high"></i>
+                <div><i class="fa-solid fa-list"></i></div>
+            </div>
+        </div>
+        <script src="./zingmp3/zingmp3.js"></script>
+    </div>
+</body>
+</html>
